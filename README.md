@@ -44,6 +44,8 @@ text-analyzer/
 │   ├── index.html
 │   ├── script.js
 │   └── nginx.conf
+├── images/
+│   └── architecture.png
 ├── .gitignore
 └── README.md
 ```
