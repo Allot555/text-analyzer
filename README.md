@@ -14,20 +14,11 @@ A simple web application that analyzes text and returns the number of words and 
 
 ## Architecture
 
-```text
-User's Browser
-      |
-      v
-Frontend Container (Nginx)
-      |
-      | HTTP POST /api/analyze
-      v
-Backend Container (Python + FastAPI)
-      |
-      | JSON response
-      v
-Frontend displays the word and character counts
-```
+## Architecture
+
+The application uses a two-container architecture. The Nginx frontend forwards HTTP requests to the Python FastAPI backend, which processes the text and returns the results as JSON.
+
+![Text Analyzer Architecture](images/architecture.png)
 
 The frontend serves the web interface and uses Nginx as a reverse proxy. The backend receives text through a FastAPI endpoint, calculates the word and character counts, and returns the results as JSON.
 
