@@ -12,7 +12,7 @@ A simple web application that analyzes text and returns the number of words and 
 - Custom Docker images published to Docker Hub.
 - Cloud deployment using AWS ECS and AWS Fargate.
 
-## Architecture
+
 
 ## Architecture
 
