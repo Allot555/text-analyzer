@@ -12,8 +12,6 @@ A simple web application that analyzes text and returns the number of words and 
 - Custom Docker images published to Docker Hub.
 - Cloud deployment using AWS ECS and AWS Fargate.
 
-
-
 ## Architecture
 
 The application uses a two-container architecture. The Nginx frontend forwards HTTP requests to the Python FastAPI backend, which processes the text and returns the results as JSON.
@@ -74,6 +72,20 @@ The deployment was tested in the cloud, and the application successfully returne
 - Publishing Docker images to Docker Hub.
 - Deploying containerized applications to AWS ECS and Fargate.
 - Understanding container separation, stateless application design, and cloud deployment.
+
+## Screenshots
+
+### Text Analyzer Application
+
+The application running locally, demonstrating text analysis and the returned word and character counts.
+
+![Text Analyzer Demo](images/text-analyzer-demo.png)
+
+### Docker Containers
+
+Both frontend and backend containers running in Docker Desktop.
+
+![Docker Containers](images/docker-containers.png)
 
 ## Project Context
 
